@@ -1,0 +1,64 @@
+TASKS [ TO BE OPENED ALONG ECLIPSE ]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This document is responsible for what I intend to do in the program.
+
+First comes first. I need to understand how the game works before jumping into something complicated like AIs
+No really understand the code line by line. It may take a week and you may need to look at every variable but once
+you get it it will be better.
+
+It is essential that you do not rip off code as you will understand less...
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+GAME PLAN
+---------
+
+What I hope to accomplish for this game is to make a RTS [real time stragety game] called Empiricus where your primary
+objective is to defend the command center from enemies. They will spawn from across the bridge and come to your center.
+You will have to spawn units from the center to combat them using points gathered from fallen enemies.
+
+! One thing you have to keep in mind is that moving the camera of the map to look at enemies/freindlies will be somewhat
+of a pain. However your character is your camera to the map so if you remove him ~. Now this is a tough project and AIs will
+be a pain. Try to learn the most you can.
+
+This is basically it. If this goes sucessful then you can move on to optimizing the game and find a way to 
+gain points from a center 'economy'.  
+
+
+
+
+PRIORITY TASKS
+--------------
+
+1. GUN (NOT COMPLETED - 00/00/0000)
+
+@ Need to add a sprite image of gun in lower screen counting bullets
+@ Ever-time a shot is fired bullets--
+@ When x shots have been fired need to make thread sleep or wait x seconds until gun is 'reloaded'
+- Need to add collision for bullets
+
+
+2.  ENEMY ENTITY [PART 1/3] (NOT COMPLETED - 00/00/0000)
+
+- Need to add a enemy sprite onto screen on a certain coordinate.
+- Need to devise a way how if the bullet reaches his coordinates the enemy disapears
+- Maybe after this find a way how the enemy has 'health'. It takes x hits to kill him
+
+
+3. ENEMY ENTITY MOVING [PART 2/3] (NOT COMPLETED - 00/00/0000)
+- Make the enemy move from one coordinate to another
+
+
+3. ENEMY ENTITY PATH-FINDING [PART 3/3] (NOT COMPLETED - 00/00/0000)
+- Make the enemy move to your coordinates (e.g. zombie). This will be very hard
+as your coordinates is always shifting.
+
+
+
+OPTIONAL TASKS
+--------------
+
+1. MUSIC/SOUND EFFECTS- add sound effects along bullets, make a class that stores sound files and make them accessible where needed.
+
+  

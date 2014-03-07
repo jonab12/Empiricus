@@ -1,0 +1,4 @@
+xScroll =player.x - screen.width /2;
+
+= e.g. 19 - 150
+

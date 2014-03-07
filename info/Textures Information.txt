@@ -1,0 +1,53 @@
+SpriteBlocks.png
+
+1rst column: (Building blocks) - Collision Yes
+
+
+- BlockR (0,0) (roof) - 808080		
+- BlockS (0,1) (south) - 808180
+- BlockE  (0,2) (east) - 808081
+- BlockW  (0,3) (west) - 818181
+- BlockN  (0,4) (north) - 828181
+- BlockNE  (0,5) (northeast) - 828281
+- BlockNW  (0,6) (northwest) - 828282
+- BlockSW  (0,7) (southwest) - 838282
+- BlockSE  (0,8) (southeast) - 838382
+
+-----------------------------------
+
+2nd column: (Roof blocks) - Collision Yes
+
+-----------------------------------
+
+3rd column: (Terrain blocks) - Collision No
+
+- GrassTile (2,0) (grass) - 00A300
+
+-----------------------------------
+
+4th column: (Path blocks) - Collision No
+
+- Pavement (3,0) (pavement) - B4C1A6
+- PinkTile (3,1) (tile) - FFD1A3
+
+-----------------------------------
+
+5th column: (Road blocks) - Collision No (gulp)
+
+- Road (4,0) (road fill) - 000000
+- RoadH (4,1) (horrizontal road stripes) - 010000
+- RoadV (4,2) (vertical road stripes) - 010001
+
+-----------------------------------
+
+6th column: (Water blocks) - Collision Yes
+
+- Water (5,0) (water) - 0094FF
+
+-----------------------------------
+(Remember to put 0xff infront)
+ ff to add alpha channel (fully opague opposed to 00 - fully transparent)
+
+If it is another tile e.g. (2 types of grasses) second class will be called Grass1A
+
+
